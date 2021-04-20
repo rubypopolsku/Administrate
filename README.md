@@ -1,6 +1,12 @@
-Zbuduj swoją pierwszą aplikacje w Ruby on Rails.
+# Administrate
 
-Przykład z filmu ja stworzyć prosty blog. Blog będzie miał posty, a posty komentarze. Na koniec dodamy jeszcze użytkowników.
+https://youtu.be/Fk_S6hTI0Vw
 
-Link do filmu - https://www.youtube.com/watch?v=CXNCHUA3-4k
-Link do aplikacji - https://ruby-blog-po-polsku.herokuapp.com
+W celu uruchomienia aplikacji:
+  - Zainstaluj zależności przy pomocy `bundle install`
+  - Utwórz bazę danych `rails db:create`
+  - Uruchom migracje `rails db:migrate`
+  - Zainstaluj Node.js i jego zależności przy pomocy `yarn install`
+  - Uruchom serwer `rails server`
+  - Strona dostępna będzie pod adresem localhost:3000
+  
